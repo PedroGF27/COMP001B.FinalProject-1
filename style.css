@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 
+title {
+    width: 100%;
+}
+
 body {
     background-color: antiquewhite;
     font-family: "Alumni Sans Pinstripe", sans-serif; 
@@ -7,9 +11,30 @@ body {
 
 .page-wrapper {
     display: grid;
-    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-columns : 1fr 2fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 15px;
 }
 
+[role="banner"] {
+    font-size: 20px;
+}
 
+.intro {
+    text-align: center;
+    
+}
+
+#zen-supporting {
+    margin: auto;
+}
+
+.summary {
+    margin: auto;
+}
+
+.sidebar{
+    margin-top: 3em;
+    padding: 1rem;
+    background-color: lightcyan;
+}
