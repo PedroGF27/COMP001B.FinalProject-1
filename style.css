@@ -7,6 +7,9 @@ title {
 body {
     background-color: antiquewhite;
     font-family: "Alumni Sans Pinstripe", sans-serif; 
+    background-image: url("Photos/ZenGarden.jpg");
+    background-size: contain;
+    
 }
 
 .page-wrapper {
@@ -37,4 +40,11 @@ body {
     margin-top: 3em;
     padding: 1rem;
     background-color: lightcyan;
+}
+
+footer {
+    position: absolute;
+    padding-top: 2em;
+    text-align: center;
+    word-spacing: 5em;
 }
