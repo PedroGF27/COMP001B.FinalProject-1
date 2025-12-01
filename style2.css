@@ -1,0 +1,23 @@
+h1::before {
+    content: "~ ";
+}
+
+
+
+h1::after {
+    content: " ~";
+}
+
+h2::first-letter {
+    font-size: 1.5em;
+    color: red;
+}
+
+h3::first-letter {
+    font-size: 1.5em;
+    color: aqua;
+}
+
+#css-zen-garden::before {
+
+}

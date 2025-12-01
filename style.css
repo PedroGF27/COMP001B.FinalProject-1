@@ -9,12 +9,12 @@ body {
     font-family: "Alumni Sans Pinstripe", sans-serif; 
     background-image: url("Photos/ZenGarden.jpg");
     background-size: contain;
-    
+
 }
 
 .page-wrapper {
     display: grid;
-    grid-template-columns : 1fr 2fr 1fr;
+    grid-template-columns : 1fr 4fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 15px;
 }
