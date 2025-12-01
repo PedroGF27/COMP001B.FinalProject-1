@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+
+body {
+    background-color: antiquewhite;
+    font-family: "Alumni Sans Pinstripe", sans-serif; 
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+}
+
+
